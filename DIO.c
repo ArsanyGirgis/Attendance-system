@@ -127,7 +127,7 @@ void DIO_setpinvalue(u8 port, u8 pin, u8 value)
 	switch (port)
 	{
 	case 0:
-			if (value == 1)
+		if (value == 1)
 		{
 			set_bit(PORTA ,pin);
 		}
@@ -137,35 +137,35 @@ void DIO_setpinvalue(u8 port, u8 pin, u8 value)
 		}
 		break;
 	case 1:
-				if (value == 1)
-			{
-				set_bit(PORTB ,pin);
-			}
-			else if (value == 0 )
-			{
-				clear_bit(PORTB,pin);
-			}
-			break;
+		if (value == 1)
+		{
+			set_bit(PORTB ,pin);
+		}
+		else if (value == 0 )
+		{
+			clear_bit(PORTB,pin);
+		}
+		break;
 	case 2:
-				if (value == 1)
-			{
-				set_bit(PORTC ,pin);
-			}
-			else if (value == 0 )
-			{
-				clear_bit(PORTC,pin);
-			}
-			break;
+		if (value == 1)
+		{
+			set_bit(PORTC ,pin);
+		}
+		else if (value == 0 )
+		{
+			clear_bit(PORTC,pin);
+		}
+		break;
 	case 3:
-				if (value == 1)
-			{
-				set_bit(PORTD,pin);
-			}
-			else if (value == 0 )
-			{
-				clear_bit(PORTD,pin);
-			}
-			break;
+		if (value == 1)
+		{
+			set_bit(PORTD,pin);
+		}
+		else if (value == 0 )
+		{
+			clear_bit(PORTD,pin);
+		}
+		break;
 
 	}
 }
