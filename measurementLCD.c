@@ -1,11 +1,11 @@
-#include"DIO.h"
-#include"lcd_cfg.h"
-#include"types.h"
-#include"lcd.h"
-#include"BIT_MATH.h"
-#include"DIO_int.h"
+#include "DIO.h"
+#include "lcd_cfg.h"
+#include "types.h"
+#include "lcd.h"
+#include "BIT_MATH.h"
+#include "DIO_int.h"
 //#define F_CPU 12000000
-#include"delay.h"
+#include "delay.h"
 #include "registers.h"
 int main()
 {
